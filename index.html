@@ -150,7 +150,11 @@
           </div>
         </div>
       </div>
-      <form class="contact-form" action="mailto:microtelematix@gmail.com" method="post" enctype="text/plain" novalidate>
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST" enctype="text/plain" novalidate>
+        <input type="hidden" name="access_key" value="400d9bea-aa05-4af8-a674-e8eb650a8ede">
+        <input type="hidden" name="from_name" value="Micro Telematix Website">
+        <input type="hidden" name="subject" value="New website enquiry">
+
         <div class="form-row">
           <label>Name*<input type="text" name="Name" required aria-describedby="name-error"><small class="field-error" id="name-error"></small></label>
           <label>Phone*<input type="tel" name="Phone" required aria-describedby="phone-error"><small class="field-error" id="phone-error"></small></label>
