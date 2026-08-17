@@ -13,8 +13,6 @@ navigation.querySelectorAll("a").forEach((link) => {
   });
 });
 
-document.querySelector("#year").textContent = new Date().getFullYear();
-
 const contactForm = document.querySelector(".contact-form");
 
 if (contactForm) {
