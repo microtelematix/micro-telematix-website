@@ -472,8 +472,9 @@ h1 em { color: var(--lime); font-style: normal; }
 .contact > .section-heading { grid-column: 1 / -1; margin-bottom: 0; }
 .contact-copy h2 { max-width: 520px; margin-bottom: 22px; font-size: clamp(34px, 4vw, 52px); letter-spacing: -2.2px; }
 .contact-copy > p:not(.section-kicker) { max-width: 500px; font-size: 17px; line-height: 1.65; margin-bottom: 28px; color: var(--ink-soft); }
-.contact-info-card { max-width: 460px; padding: 26px 28px; border: 1px solid var(--border-light); border-radius: 4px; background: var(--mint); box-shadow: none; }
+.contact-info-card { padding: 26px 28px; border: 1px solid var(--border-light); border-radius: 4px; background: var(--mint); box-shadow: none; }
 .contact-info-card h3 { margin: 0 0 22px; color: var(--ink); font-size: 21px; line-height: 1.2; letter-spacing: -.3px; }
+.contact-info-career-card { margin-top: 26px; padding: 26px 28px; border: 1px solid var(--border-light); border-radius: 4px; background: var(--mint); box-shadow: none; }
 .contact-rows { display: grid; gap: 18px; }
 .contact-row { display: grid; grid-template-columns: 28px 1fr; gap: 14px; align-items: start; margin: 0; color: var(--ink); font-size: 16px; line-height: 1.55; }
 .contact-row .lucide-icon, .contact-partner .lucide-icon { width: 22px; height: 22px; color: var(--green); stroke-width: 1.85; }
@@ -482,6 +483,7 @@ h1 em { color: var(--lime); font-style: normal; }
 .contact-partner { display: grid; grid-template-columns: 28px 1fr; gap: 14px; align-items: start; }
 .contact-partner h4 { margin: 0 0 6px; color: var(--ink); font: 700 16px/1.25 var(--display); letter-spacing: -.2px; }
 .contact-partner p { margin: 0; color: var(--ink-soft); font-size: 14px; line-height: 1.6; }
+.contact-careers-email { display: inline-block; margin-top: 2px; color: var(--primary); border-bottom: 1px solid currentColor; font-size: 14px; line-height: 1.6; font-weight: 600; }
 .phone-link { display: block; width: fit-content; margin: 14px 0 0; color: var(--green-dark); border-bottom: 1px solid rgba(22,58,95,.42); font-weight: 700; }
 .phone-link:first-child { margin-top: 0; }
 .contact address { max-width: 390px; margin-top: 22px; color: var(--ink-soft); font-size: 14px; font-style: normal; line-height: 1.65; }
